@@ -42,7 +42,7 @@ li {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(26, 106, 204);
+    background: linear-gradient(#1e3cff, #4d94ff, #80aaff);
     z-index: 1000;
 }
     .burger-icon, .closeIcon {
@@ -89,7 +89,7 @@ li {
     .nav {
       
         width: 100%;
-        height: 80px;
+        height: 120px;
         position: fixed;
         top: 0;
         z-index: 1000;
@@ -101,13 +101,9 @@ li {
         flex-direction: row;
         justify-content: flex-end;
         gap: 40px;
-        margin-top: 30px;
         margin-right: 5%;
+        margin-top: -1.2rem;
     }
 
-    .navDesktop img {
-        height: 50px;
-        width: auto;
-    }
 
 }

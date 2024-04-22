@@ -17,36 +17,59 @@
 
 @media (min-width: 600px) {
    
-    .title {
+    .title{
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-top: 8rem;
-        gap: 40px;
     }
         
+
+    .logo {
+
+        display: flex;
+        justify-content: flex-start;
+    }
     h1 {
         color: rgb(255, 255, 255);
-        font-size: 28px;
+        font-size: 16px;
+        margin-top: 2rem;
+        margin-left: 5%;
     }
 
     h2 {
         color: rgb(255, 255, 255);
         font-size: 24px;
+        margin-top: 2rem;
+        gap: 40px;
 
     }
 
     .inhalt {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         margin-top: 4rem;
+        gap: 2rem;
     }
+
+    .service {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    .services {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2rem;
+        gap: 6rem;
+    }
+
     .contact {
         height: 35px;
         width: 100px;
-        background-color:rgb(55, 55, 255);
-        border: 1px solid rgb(55, 55, 255);
-        border-radius: 5px;
+        background-color: #80aaff;
+        border-radius: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,20 +78,22 @@
     }
     .contact a{
         font-size: 16px;
-        color: rgb(237, 237, 237);
+        color: rgb(230, 230, 230);
 
     }
 
     .contact:hover {
-        background-color: rgb(173, 217, 255);
-        border: 1px solid rgb(173, 217, 255);
-        border-radius: 5px;
+        background-color:#4d94ff;
+        border-radius: 20px;
         
     }
     .contact:hover a {
         font-size: 16px;
-        color: rgb(33, 33, 33);
+        color: rgb(230, 230, 230);
 
     }
 
+    p {
+        margin-top: 7rem;
+    }
 }
